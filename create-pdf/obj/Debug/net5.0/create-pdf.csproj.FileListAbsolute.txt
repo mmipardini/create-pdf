@@ -26,3 +26,5 @@ C:\Projects\pdf\create-pdf\create-pdf\obj\Debug\net5.0\create-pdf.dll
 C:\Projects\pdf\create-pdf\create-pdf\obj\Debug\net5.0\ref\create-pdf.dll
 C:\Projects\pdf\create-pdf\create-pdf\obj\Debug\net5.0\create-pdf.pdb
 C:\Projects\pdf\create-pdf\create-pdf\obj\Debug\net5.0\create-pdf.genruntimeconfig.cache
+C:\Projects\pdf\create-pdf\create-pdf\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Projects\pdf\create-pdf\create-pdf\bin\Debug\net5.0\itextsharp.dll
