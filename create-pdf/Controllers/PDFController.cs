@@ -19,9 +19,18 @@ namespace create_pdf.Controllers
 
             pdf.Open();
 
-            var title = new Paragraph("Test!");
+            // i'm not very creative as we can see
+            var title = new Paragraph("Person etc");
 
             pdf.Add(title);
+
+            PdfPTable contentTable = new(3);
+            contentTable.SetWidths(new float[] { 200, 200, 200 });
+            contentTable.AddCell("Id: ");
+            contentTable.AddCell("Name: ");
+            contentTable.AddCell("Age: ");
+
+            pdf.Add(contentTable);
 
             pdf.Close();
 
