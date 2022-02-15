@@ -32,7 +32,7 @@ namespace create_pdf.Controllers
             };
 
             PdfPTable contentTable = new(3);
-            contentTable.SetWidths(new float[] { 200, 200, 200 });
+            contentTable.SetWidths(new float[] { 50, 200, 200 });
 
             contentTable.AddCell("Id: ");
             contentTable.AddCell("Name: ");
